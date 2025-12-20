@@ -1,0 +1,11 @@
+# robots.txt for Simulador de CDT
+# https://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private directories (if any in the future)
+# Disallow: /admin/
+
+# Sitemap
+Sitemap: https://tudominio.com/sitemap.xml

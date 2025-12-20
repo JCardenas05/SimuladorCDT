@@ -1,16 +1,100 @@
-# React + Vite
+# 💰 Simulador de CDT - Calculadora de Interés Compuesto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simulador interactivo de CDT (Certificado de Depósito a Término) con interés compuesto. Permite calcular el rendimiento de inversiones, simular ahorros mensuales y analizar la evolución del capital a lo largo del tiempo.
 
-Currently, two official plugins are available:
+## 🎯 Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Cálculo de Interés Compuesto**: Simula el crecimiento de tu inversión con tasas de interés efectivas anuales
+- **Ahorro Mensual**: Agrega aportes mensuales y visualiza cómo impactan en tu capital final
+- **Visualización Interactiva**: Gráficas dinámicas que muestran la evolución de tu inversión vs ahorros
+- **Vista de Tabla Detallada**: Análisis período por período con toda la información financiera
+- **Exportación a Excel**: Descarga los resultados en formato .xlsx para análisis posterior
+- **Interfaz Moderna**: Diseño iOS-inspired con glassmorphism y modo oscuro
+- **Persistencia de Datos**: Los formularios mantienen sus valores para facilitar múltiples simulaciones
+- **Tarjetas de Resumen**: Vista rápida del capital final, intereses ganados y retención fiscal
 
-## React Compiler
+## 🛠️ Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** - Framework de UI
+- **Vite** - Build tool y dev server
+- **Chart.js** - Visualización de datos
+- **TailwindCSS 4** - Estilos y diseño
+- **XLSX** - Exportación a Excel
+- **CSS Moderno** - Glassmorphism y animaciones
 
-## Expanding the ESLint configuration
+## 📋 Uso
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Desarrollo
+
+```bash
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm run dev
+
+# Compilar para producción
+npm run build
+
+# Vista previa de producción
+npm run preview
+```
+
+### Simulación
+
+1. **Configura tus parámetros**:
+   - Ahorro inicial
+   - Ahorro mensual
+   - Tasa efectiva anual (EA %)
+   - Plazo en años
+   - Período de capitalización
+   - Retención fiscal (opcional)
+
+2. **Visualiza resultados**:
+   - Gráfica de evolución del capital
+   - Tabla detallada período por período
+   - Tarjetas de resumen con métricas clave
+
+3. **Exporta tus datos**: Descarga los resultados en Excel para análisis adicional
+
+## 🔍 SEO
+
+El proyecto implementa las mejores prácticas de SEO:
+
+- ✅ Meta description optimizada
+- ✅ Open Graph tags para redes sociales
+- ✅ Twitter Card tags
+- ✅ Structured Data (JSON-LD) con schema.org
+- ✅ robots.txt válido
+- ✅ sitemap.xml para crawlers
+- ✅ Canonical URLs
+- ✅ Theme color y PWA meta tags
+
+## 📁 Estructura del Proyecto
+
+```
+SimuladorCDT/
+├── public/
+│   ├── img/              # Iconos y recursos
+│   ├── robots.txt        # Directivas para crawlers
+│   └── sitemap.xml       # Mapa del sitio
+├── src/
+│   ├── components/       # Componentes React
+│   │   ├── Formulario.jsx
+│   │   ├── SummaryCards.jsx
+│   │   ├── ChartView.jsx
+│   │   └── TableView.jsx
+│   ├── utils/           # Lógica de negocio
+│   │   └── finance.js   # Cálculos financieros
+│   ├── App.jsx          # Componente principal
+│   └── main.jsx         # Punto de entrada
+└── index.html           # HTML base con meta tags SEO
+```
+
+## 👨‍💻 Autor
+
+**JCardenas05**
+
+## 📄 Licencia
+
+Este proyecto está bajo licencia MIT - ver el archivo LICENSE para más detalles.
