@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Removed default Vite styles to prevent conflicts with the migrated Interest Compound Calculator styles. */
+/* The styles are now managed in App.css */
