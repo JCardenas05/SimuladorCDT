@@ -9,7 +9,6 @@ Simulador interactivo de CDT (Certificado de Depósito a Término) con interés 
 - **Visualización Interactiva**: Gráficas dinámicas que muestran la evolución de tu inversión vs ahorros
 - **Vista de Tabla Detallada**: Análisis período por período con toda la información financiera
 - **Exportación a Excel**: Descarga los resultados en formato .xlsx para análisis posterior
-- **Interfaz Moderna**: Diseño iOS-inspired con glassmorphism y modo oscuro
 - **Persistencia de Datos**: Los formularios mantienen sus valores para facilitar múltiples simulaciones
 - **Tarjetas de Resumen**: Vista rápida del capital final, intereses ganados y retención fiscal
 
