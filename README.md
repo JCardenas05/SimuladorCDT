@@ -1,4 +1,6 @@
 # 💰 Simulador de CDT - Calculadora de Interés Compuesto
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://simuladorcdt.j-cardenas.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Simulador interactivo de CDT (Certificado de Depósito a Término) con interés compuesto. Permite calcular el rendimiento de inversiones, simular ahorros mensuales y analizar la evolución del capital a lo largo del tiempo.
 
